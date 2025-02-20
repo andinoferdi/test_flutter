@@ -67,7 +67,7 @@ class _SplashWidgetState extends State<SplashWidget> {
                       height: 50,
                       child: ElevatedButton(
                         onPressed: () {
-                          Navigator.pushNamed(context, '/signin');
+                          Navigator.pushNamed(context, '/onboarding');
                         },
                         style: ElevatedButton.styleFrom(
                           backgroundColor: Colors.green,
